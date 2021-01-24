@@ -1,0 +1,75 @@
+{
+  "window.menuBarVisibility": "toggle",
+  "window.zoomLevel": 1,
+  "editor.suggestSelection": "first",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback' ",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+  },
+  "terminal.integrated.shell.linux": "/usr/bin/zsh",
+  "terminal.integrated.env.linux": {},
+  "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+  "terminal.integrated.localEchoLatencyThreshold": 0,
+  "terminal.integrated.localEchoStyle": "dim",
+  "terminal.integrated.automationShell.linux": "",
+  "terminal.integrated.fontFamily": "monospace",
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.packageManager": "yarn",
+  "prettier.trailingComma": "all",
+  "prettier.withNodeModules": true,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx, html"
+  },
+  "emmet.includeLanguages": {
+    // "react-html": "html",
+    "javascript": "javascriptreact, javascript,"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "debug.console.fontFamily": "'Anonymous Pro'",
+  "git.autofetch": true,
+  "files.autoSave": "off",
+  "editor.wordWrap": "on",
+  "typescript.preferences.quoteStyle": "single",
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.startupEditor": "welcomePage",
+  "workbench.sideBar.location": "left",
+  "workbench.iconTheme": "material-icon-theme",
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+
+  "html.format.indentHandlebars": true,
+  "extensions.autoUpdate": false,
+  "extensions.ignoreRecommendations": true,
+  "git.alwaysSignOff": true,
+  "git.enableCommitSigning": true,
+  "git.enableSmartCommit": true,
+  "javascript.updateImportsOnFileMove.enabled": "always"
+}
+
