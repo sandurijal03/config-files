@@ -15,16 +15,15 @@
     "**/CVS": true,
     "**/.DS_Store": true
   },
-  // "terminal.integrated.shell.linux": "/usr/bin/zsh",//
   "terminal.integrated.profiles.linux": {
     "zsh (login)": {
       "path": "/usr/bin/zsh",
       "args": ["-l"]
     }
   },
-  "terminal.integrated.localEchoLatencyThreshold": 0,
-  "terminal.integrated.localEchoStyle": "dim",
+  "terminal.integrated.localEchoStyle": "bold",
   "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.defaultLocation": "editor",
   "prettier.jsxSingleQuote": true,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "all",
@@ -32,17 +31,23 @@
   "emmet.syntaxProfiles": {
     "javascript": "jsx, html"
   },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
   "emmet.includeLanguages": {
     "javascript": "javascriptreact, javascript,"
   },
   "emmet.triggerExpansionOnTab": true,
-  "debug.console.fontFamily": "'Anonymous Pro'",
+  "debug.console.fontFamily": "Anonymous Pro",
   "git.autofetch": true,
   "files.autoSave": "off",
   "editor.wordWrap": "on",
   "typescript.preferences.quoteStyle": "single",
   "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -56,6 +61,17 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[rust]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "css.lint.unknownAtRules": "ignore",
   "workbench.startupEditor": "welcomePage",
   "workbench.iconTheme": "material-icon-theme",
   "html.format.indentHandlebars": true,
@@ -65,10 +81,18 @@
   "git.enableCommitSigning": true,
   "git.enableSmartCommit": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.colorTheme": "Styrokai",
+  "workbench.colorTheme": "Styrokai++ (No Italics)",
   "workbench.sideBar.location": "right",
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  "editor.renderControlCharacters": true,
+  "bracketPairColorizer.depreciation-notice": false,
+  "workbench.editor.enablePreview": false,
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": false,
+    "typescriptreact": false
+  },
+  "window.zoomLevel": 1
 }
-
